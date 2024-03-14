@@ -1,0 +1,10 @@
+.main {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+.main img {
+    margin-left: 500px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 16px lightgray;
+}
