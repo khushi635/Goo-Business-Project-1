@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service details - Goo Business</title>
+    <link rel="shortcut icon" href="/static/img/Goo%20Businesses.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="responsive.css">
+  
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+    
+
+<link rel="stylesheet" href="styleforproductpage.css">
+<!-- <link rel="stylesheet" href="services.css"> -->
+
+
+<style>
+    .container {
+        height: 500px;
+       
+    }
+    .vanishClass{display: none;}
+    .hovb:hover{transform: scale(1.02);}
+    @media screen and (max-width:1066px) {.thAll{font-size: x-large;}.tdAll{font-size: large;}.mbpad{padding: 39px 0px;}.productIMG{box-shadow:none;border: none ;}}
+    .entryBox{height: 30px;border-top: none;border-right: none;border-left: none;border-bottom: 1px solid gray;padding: 3px;font-size: 15px;background-color: #d0cdd500;}
+   
+   
+    
+</style>
+
+
+
+</head>
+
+<body>
+    <div class="pogress" id="pogressID"></div>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="Goo Businesses (1).png" height="73px">
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/whyus">Why us?</a></li>
+            </ul>
+        <form class="form" action="/searching" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="7CDas7vzfBAtlVm51C29UbVMj23mh4XjviNFmYu0eyV9Xila2EYvXQJQf4OU0sla">
+            <div class="search">
+                <input class="form-ele1"  type="text" id="searchbarID" name="seachbar" placeholder="Search here..." width="20vw">
+            </div>
+            <div class="btn">
+                <button class="bttn" type="submit">Search</button>
+            </div>
+        </form>
+
+        <a href="/searching"><div class="navallproduct">All Services</div></a>
+
+        </nav>
+
+        <a href="/freetrail" class="freeTrl bblink">Get Your<br>Free Trial<br>up to $30</a>
+    </header>
